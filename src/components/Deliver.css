@@ -1,0 +1,27 @@
+.deliver-container{
+    height: 100vh;
+    width: 100vw;
+    background: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deliver-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    width: 70vw;
+    height: 70vh;
+    background: rgba(0,0,0,0.4);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    border-radius: 0.4rem;
+}
+
+.deliver-cards-container::-webkit-scrollbar {
+    display: none;
+}

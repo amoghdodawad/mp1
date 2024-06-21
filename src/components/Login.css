@@ -1,0 +1,89 @@
+  .login-page {
+    /* background: url('./nature-background.jpg'); */
+    background: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f8ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-container {
+    /* max-width: 300px; */
+    width: 40vw;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(214, 234, 214, 0.6); Light green background color */
+    background: rgba(214, 234, 214, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(214, 234, 214, 0.3);
+  }
+
+  .login-toggle{
+    margin-bottom: 1rem;
+  }
+
+  .login-toggle:hover {
+    cursor: pointer;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    font-family: 'Poppins';
+    width: 30vw;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 31.5vw;
+    font-family: 'Poppins';
+    padding: 10px 15px;
+    background: #056c02;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: #045701;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  
+  .error-message {
+    color: rgb(163, 2, 2);
+    margin-bottom: 10px;
+  }
+  

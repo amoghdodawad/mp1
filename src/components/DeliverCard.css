@@ -1,0 +1,29 @@
+.deliver-card-container {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    background: rgba(214, 234, 214, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 3rem;
+    font-size: large;
+    max-height: 30vh;
+}
+
+.deliver-button{
+    background: #056c02;
+    margin-top: 16px;
+    border-radius: 4px;
+    color: antiquewhite;
+    transition: background-color 0.3s ease;
+}
+
+.deliver-button:hover{
+    cursor: pointer;
+    background: #045701;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}

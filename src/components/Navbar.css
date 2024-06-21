@@ -1,0 +1,41 @@
+.navbar {
+    /* background: inherit; */
+    position: fixed;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100vw;
+    /* margin-top: 1vw;
+    margin-bottom: 1vw; */
+    /* padding: 0.4vw; */
+    background: rgba(181, 213, 181, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.navbar-items-container {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-button {
+    text-decoration: none;
+    /* font: black; */
+}
+
+.link-button:hover{
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: large;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,64 @@
+.pick-container {
+    background: inherit;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* padding-top: 6rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: column; */
+}
+
+.fetch-click{
+    margin: 2rem;
+}
+
+.fetch-click:hover{
+    cursor: pointer;
+}
+
+select {
+    font-family: 'Poppins';
+    width: 15vw;
+    margin: 2rem;
+    font-size: medium;
+}
+
+.location-container{
+    display: flex;
+    min-width: 35vw;
+    max-width: 40vw;
+    min-height: 6vh;
+    max-height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    margin-top: 4rem;
+}
+
+.card-super-container::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.card-super-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.card-super-container {
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 60vh;
+    min-height: 50vh;
+    max-width: 85vw;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.2rem;
+}
